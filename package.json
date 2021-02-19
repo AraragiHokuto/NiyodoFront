@@ -1,0 +1,39 @@
+{
+  "name": "@kuroshio/niyodo",
+  "version": "0.0.1",
+  "description": "Front end for Niyodo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "author": "Kuroshio Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@blueprintjs/webpack-build-scripts": "^2.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "babel-loader": "^8.2.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "source-map-loader": "^2.0.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^3.39.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-loading": "^2.0.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

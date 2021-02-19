@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+}
+
+#container {
+    min-width: 768px;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.page-wrapper {
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.date-area {
+    position: fixed;
+    left:0;
+    top: 60px;
+    bottom: 0;
+    width: 200px;
+    overflow-y: scroll;
+}
+
+.msglist-area {
+    margin-left: 200px;
+}
+
+.date-list {
+}
+
+.date-year-list-cap {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 50px;
+
+    &:hover {
+	color: white;
+	background-color: #394b59;
+    }
+
+}
+
+.date-month-list-cap {
+    font-weight: bold;
+    padding-left: 50px;
+
+    &:hover {
+	color: white;
+	background-color: #394b59;
+    }
+
+}
+
+.date-month-list-entry {
+    padding-left: 50px;
+
+    &:hover {
+	color: white;
+	background-color: #394b59;
+    }
+
+    &:nth-child(odd) {
+	background-color: #f2f2f2;
+    }
+}
+
+.msglist-area {
+    flex: 1 1;
+}
+
+.msglist-wrapper {
+}
+
+.msglist-entry-table {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.msglist-entry {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    overflow: hidden;
+
+    &:nth-child(even) {
+	background: #f2f2f2;
+    }
+}
+
+.msglist-prev,.msglist-next {
+    width: 100%;
+    text-align: center;
+}
+
+.msglist-date-span {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.msglist-entry-datetime{
+    flex: 0 0 70px;
+    text-align: center;
+}
+
+.msglist-entry-sender{
+    flex: 0 0 150px;
+    padding: 0 20px;
+    text-align: right;
+}
+
+.msglist-entry-content {
+    flex: 1 1;
+}
